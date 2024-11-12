@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <title>Form Login</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            fint-family: 'Nunito', sans-serif;
+        }
+        body{
+            background-image: linear-gradient(#eb3349, #f45c43);
+            min-height: 100vh;
+            padding:120px 0;
+
+        }
+        .container {
+            background:#ffffff;
+            width:400px;
+            height:500px;
+            border-radius: 5px;
+            box-shadow: rgb(0, 0, 0, 0.16) 0px 1px 4px;
+            margin: 0 auto;
+            padding:90px 40px;
+            text-align: center;
+
+        }
+        .container h1{
+            font-size: 44px;
+            margin-bottom: 20px;
+        }
+        .container .form-input {
+            background: rgb(235,235,235);
+            outline: none;
+            padding: 15px 10px;
+            margin-bottom: 20px;
+            border:none;
+            width:100%;
+        }
+        .container a {
+            margin-top: 10px 0;
+            font-size: 16px;
+            opacity: 0.5;
+
+        }
+        .contain .form-button {
+            margin-top: 15px;
+            background: rgb (255, 64, 47);
+            outline: none;
+            padding: 15px 50px;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> Đăng nhập</h1>
+        <form>
+            <input class="email" type="Nhập email" placeholder="email"> <br>
+            <input class="mật khẩu" typer="Nhập mật khẩu" placeholder="mật khẩu> <br>
+            <a> Quên mật khẩu </a> <br>
+            <input class= "form-button" type="submit" value="Đăng nhập">
+        </form>
+    </div>
+</body>
+</html>
